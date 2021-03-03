@@ -1,0 +1,20 @@
+{
+  "draw50": {
+    "ID": "185964536",
+    "Name": "shadowashpanda_",
+    "FollowerPosition": 45,
+    "GiveawayWinnerType": "draw50"
+  },
+  "draw100": {
+    "ID": "42999049",
+    "Name": "rmaroney",
+    "FollowerPosition": 66,
+    "GiveawayWinnerType": "draw100"
+  },
+  "Special": {
+    "ID": "189283242",
+    "Name": "nofirstnamefound",
+    "FollowerPosition": 103,
+    "GiveawayWinnerType": "Special"
+  }
+}
