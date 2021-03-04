@@ -145,6 +145,7 @@ namespace ItsMyBot.Worker.Commands
                 {
                     client.SendMessage(e.ChatMessage.Channel,
                     $"Wait, {winnername} is not a follower! Trying again!");
+                    await Task.Delay(2000);
                 }
             };
             
@@ -169,7 +170,7 @@ namespace ItsMyBot.Worker.Commands
                 winnerPosition = random.Next(0, users.Count());
                 client.SendMessage(e.ChatMessage.Channel,
                 $"{i} ({winnerPosition})!");
-                await Task.Delay(1000);
+                await Task.Delay(2000);
             }
 
             return winnerPosition;
